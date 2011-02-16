@@ -9,3 +9,4 @@ beam_size=3	top_n=10	top_k=100	test_accuracy=0.926651387287	running_time=63m14.3
 Q3
 
 
+The accuracy goes down as the parameters are increased.  We expected the accuracy to increase.
