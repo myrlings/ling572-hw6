@@ -1,8 +1,7 @@
 # beamsearch maxent.sh test_data boundary_file model_file sys_output beam_size topN topK
 import os
 
-# beam_sizes = [0,1,2,3]
-beam_sizes = [0]
+beam_sizes = [0,1,2,3]
 top_ns = [1,3,5,10]
 top_ks = [1,5,10,100]
 test_accuracies = []
