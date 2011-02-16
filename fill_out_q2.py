@@ -17,9 +17,9 @@ for index in range(0,len(beam_sizes)):
 	beam_size = str(beam_sizes[index])
 	top_n = str(top_ns[index])
 	top_k = str(top_k[index])
-	sys_file = top_n + "_"+top_k".out"
+	sys_file = top_n + "_" +top_k+ ".out"
 	
-	command = "time /.beamsearch_maxent.sh "+ test_data +" "+ boundary_file +" "+ model_file +" "+ sys_file +" "+ beam_size +" "+ top_n +" "+ top_k
+	command = "time `/.beamsearch_maxent.sh "+ test_data +" "+ boundary_file +" "+ model_file +" "+ sys_file +" "+ beam_size +" "+ top_n +" "+ top_k
 	output = os.popen(command).read().split()
 	accuracy = output[-7]
 	time = output[-5]
