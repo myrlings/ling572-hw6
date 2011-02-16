@@ -2,6 +2,7 @@
 import os
 
 beam_sizes = [0,1,2,3]
+# beam_sizes = [0]
 top_ns = [1,3,5,10]
 top_ks = [1,5,10,100]
 test_accuracies = []

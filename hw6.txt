@@ -1,0 +1,11 @@
+Q2
+
+beam_size=0	top_n=1	top_k=1	test_accuracy=0.940395240119	running_time=3m14.827s
+beam_size=1	top_n=3	top_k=5	test_accuracy=0.939810879728	running_time=5m45.689s
+beam_size=2	top_n=5	top_k=10	test_accuracy=0.936206059134	running_time=11m18.182s
+beam_size=3	top_n=10	top_k=100	test_accuracy=0.926651387287	running_time=63m14.346s
+
+
+Q3
+
+
