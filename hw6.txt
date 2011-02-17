@@ -1,3 +1,6 @@
+Matt Todd
+Caleb Barr
+
 Q2
 
 beam_size=0	top_n=1	top_k=1	test_accuracy=0.940395240119	running_time=3m14.827s
